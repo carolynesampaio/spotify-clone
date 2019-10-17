@@ -1,0 +1,387 @@
+
+body {
+	background-color: rgb(80, 155, 245);
+	overflow-x: hidden;
+}
+
+.navbar {
+	height: 5em;
+}
+
+.fundo-navbar {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-nav {
+	font-weight: 700;
+}
+
+.nav-link {
+	color: #fff;
+}
+
+.nav-link:hover {
+	color: #1DB954;
+}
+
+.nav-separador {
+	color: #fff;
+	padding-top: .5em;
+}
+
+.nav-item {
+	margin: 0 1em 0 1em;
+} 
+
+.navbar-brand {
+	height: 40px;
+	width: 132px;
+	text-decoration: none;
+	color: transparent;
+}
+
+
+.img-logo {
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('../../imagens/Spotify_logo_with_text.svg');
+	background-size: contain;
+	color: transparent;
+	text-decoration: none;
+}
+
+.navbar > .container > .navbar-brand > a:hover {
+	text-decoration: none;
+}
+
+/*BANNER PRINCIPAL*/
+
+.banner-principal {
+	height: 35em;
+}
+
+.background {
+	height: 34em;
+	background: url('../../imagens/premium_dancer.png') no-repeat;
+	background-size: contain;
+	background-position: bottom right;
+	margin-top: 1em;
+}
+
+.frase-efeito {
+	line-height: 1.4;
+    padding: 0em 1em .5em 0;;
+    font-size: 75px;
+    font-weight: 800;
+    max-width: 100%;
+    width: auto;
+    display: inline-block;
+    margin: 1em .9em 0 1.7em;
+    color: #fff;
+}
+
+.descricao-promocao {
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	margin: 0em 0em 0 4.3em;
+	width: 100%
+
+}
+
+.seja-premium {
+	margin: 5em 0 0 8em;
+	width: 13em;
+	height: 3em;
+	padding: .5 2em .5 2em;
+}
+
+.letra-botao {
+	font-weight: 600;
+}
+
+/*BENEFICIOS DO PREMIUM*/
+
+.beneficios {
+	padding: 75px 15px;
+	background-color: #fff;
+}
+
+.porque-premium {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 800;
+}
+
+.titulo-porque-premium {
+	font-weight: 700;
+	font-size: 48px;
+}
+
+.quatro-beneficios {
+	padding: 70px;
+}
+
+.img-beneficios {
+	width: 142px;
+    height: 142px;
+    margin: 0 auto 40px;
+}
+
+
+.titulo-beneficios {
+	color: black;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+
+h3 {
+	font-size: 21px;
+	margin: 0 auto .5em;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+/*FORMAS DE PAGAMENTO*/
+
+.formas-pagamento {
+	background-color: #fff;
+	padding: 60px 15px;
+}
+
+.pagamentos {
+	text-align: center;
+}
+
+.titulo-pagamentos {
+	font-size: 46px;
+	font-weight: 700;
+	width: 100%;
+}
+
+.melhor-bolso {
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.opcoes-pagamento {
+    text-align: left;
+    margin: 0px auto 70px;
+    padding-top: 50px; 
+}
+
+.legenda-colunas {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.informacoes-pagamento {
+	background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 290px;
+    height: 90%;
+    min-width: 250px;
+    max-width: 100%;
+    text-align: left;
+    flex-flow: column;
+    margin: 0px auto;
+}
+}
+
+.titulo-tipos-pagamento {
+	display: block;
+	text-align: left;
+	-webkit-box-flex: 1;
+    flex-grow: 1;
+    padding: 0px auto 100px auto;
+}
+
+.teste-gratis {
+	color: white;
+    background-color: rgb(63, 158, 215);
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    border-radius: 3px;
+    padding: 4px 8px;
+}
+
+.pagamento-cartao {
+	font-weight: bold;
+    margin-bottom: 5px;
+    margin-block-start: 0px;
+    font-size: 14px;
+}
+
+.cancele-quando-quiser {
+	margin-block-start: 0px;
+    margin-bottom: 10px;
+    line-height: 1.75;
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    text-align: left;	
+}
+
+.bandeira {
+	display: inline-block;
+}
+
+.bandeira-img {
+	width: 40px;
+}
+
+.evREnx {
+	height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    padding: 30px 45px;
+}
+
+.eifmih {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    background-color: rgb(29, 185, 84);
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    border-radius: 500px;
+    padding: 17px 48px;
+}
+
+.evREnx {
+    width: 100%;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    padding: 17px 45px;
+}
+
+a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+.rodape-pagamentos {
+	font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.select-container {
+	background-image: none;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    width: 100%;
+    height: 50px;
+    box-shadow: rgb(189, 189, 189) 0px 0px 0px 1px inset;
+    text-indent: 0.01px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 24, 24);
+    border-width: 0px;
+}
+
+/*RODAPE PRINCIPAL */
+
+.rodape-principal {
+	background-color: black;
+	width: 100%;
+	height: 100px;
+}
+
+div .container {
+	width: 1170px;
+	height: 100%;
+}
+
+footer .row-small {
+	font-size: 12px;
+} 
+
+footer .nav a {
+	color: #c1c3c6;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+footer .nav a:hover {
+	color: #616467;
+}
+
+.col-xs-7 {
+	padding-top: 50px;
+	width: 58.33333333%;
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+
+.col-xs-5 {
+	padding-top: 30px;
+	width: 41.66666667%;
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+    display: block;
+}
+}
+
+.text-right {
+	text-align: right;
+}
+
+nav .row .row-small {
+	justify-content: space-between;
+}
+
+.copyright {
+	font-size: 12px;
+	font-weight: 400;
+	padding: 1em 0;
+	color: #919496;
+}
